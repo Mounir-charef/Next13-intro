@@ -2,13 +2,9 @@
 import Link from "next/link";
 import './globals.css'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children,}: { children: React.ReactNode; }) {
   return (
-    <html>
+    <html lang='en'>
       <body>
         <main>
             <nav>
