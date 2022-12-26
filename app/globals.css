@@ -8,6 +8,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
     padding: 0 2rem;
+    background-color: #252525;
+    color: whitesmoke;
 }
 
 a {
@@ -47,4 +49,18 @@ nav a {
     font-weight: bold;
     margin: 0 0.5rem;
     text-decoration: underline;
+}
+.note {
+    border: 1px solid #efefef;
+    border-radius: 6px;
+    padding: 10px;
+}
+.grid {
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: 20px;
 }
